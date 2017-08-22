@@ -7,7 +7,7 @@ description: There are five of us. It's almost too many.<br/>Students, Sofrware 
 baseurl: "/"
 url: "ellenberger.zone" # the base hostname & protocol for your site
 author: Jack Ellenberger
-street_address: Edina, Northfield, Appleton, and Chicago
+street_address: Edina, Northfield, River Falls, and Chicago
 city:
 state: MN, MN, WI, and IL
 # zip_code: 02134 (send it to zoom)

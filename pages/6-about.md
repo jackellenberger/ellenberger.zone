@@ -1,9 +1,9 @@
 ---
 title: About
 layout: about
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+description: The Ellenberger family a little closer up
 permalink: /about
-image: assets/images/pic07.jpg
+image: assets/images/edina_nordic.jpg
 nav-menu: false
 front-page: true
 ---
@@ -15,9 +15,9 @@ front-page: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Sed amet aliquam</h2>
+			<h2>Who?</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+		<p>We're five brothers, two parents, and two goldfish. Jack might get a cat. Raised in Minneapolis, MN, we've spread across the midwest like a disease and the CDC simply can't stop us. Our interests vary from biological research to orbital dynamics to standing up static sites about our family. We're not here on <code>the ellenberger zone</code> to give you every little detail, just to give you something to read while you wait for us to review that offer letter you sent over, you know, that one where you wrote "big bucks"?</p>
 	</div>
 </section>
 
@@ -30,9 +30,9 @@ front-page: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Orci maecenas</h3>
+					<h3>Active</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>JV Champions and thought leaders of the nordic track, the Ellenbergers dominate the long distance, while perfecting the techniques of nordic sleeping. Few can maintain the strict regimens of constant tapering and non-stop dry land trainging, and an even slighter number could take those teachings all the way to the Boston Marathon. All the Ellenbergers are active, but not all have learned to be actively inactive.</p>
 				<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul>
@@ -46,9 +46,9 @@ front-page: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Rhoncus magna</h3>
+					<h3>Educated</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>Matt: Graduate Degree at St Thomas. Michael: Undergrad, a turn at the National Institute of Health, and on to patent law. Jack: a BS and more once they make computers a bit more complicated. David: at the second best school in Northfield. Mark: Make him an offer, schools.</p>
 				<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul>
@@ -62,9 +62,9 @@ front-page: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Sed nunc ligula</h3>
+					<h3>Connected</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>Synergy. Business. Sigma. Anything, we got it.</p>
 				<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul>
@@ -74,7 +74,7 @@ front-page: true
 </section>
 
 <!-- Three -->
-<section id="three">
+<!-- <section id="three">
 	<div class="inner">
 		<header class="major">
 			<h2>Massa libero</h2>
@@ -84,6 +84,6 @@ front-page: true
 			<li><a href="generic.html" class="button next">Get Started</a></li>
 		</ul>
 	</div>
-</section>
+</section> -->
 
 </div>
