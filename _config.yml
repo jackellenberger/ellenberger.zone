@@ -4,8 +4,8 @@ subtitle: Brothers
 site_name: Ellenberger Brothers
 email: email@ellenberger.zone
 description: There are five of us. It's almost too many.<br/>Students, Sofrware Engineers, Lawyers, and Educators.
-baseurl: "/"
-url: "ellenberger.zone" # the base hostname & protocol for your site
+baseurl: ""
+url: "" # the base hostname & protocol for your site
 author: Jack Ellenberger
 street_address: Edina, Northfield, River Falls, and Chicago
 city:
