@@ -32,7 +32,7 @@ front-page: true
 				<header class="major">
 					<h3>Active</h3>
 				</header>
-				<p>JV Champions and thought leaders of the nordic track, the Ellenbergers dominate the long distance, while perfecting the techniques of nordic sleeping. Few can maintain the strict regimens of constant tapering and non-stop dry land trainging, and an even slighter number could take those teachings all the way to the Boston Marathon. All the Ellenbergers are active, but not all have learned to be actively inactive.</p>
+				<p>JV Champions and thought leaders of the nordic track, the Ellenbergers dominate the long distance, while perfecting the techniques of nordic sleeping. Few can maintain the strict regimens of constant tapering and non-stop dry land training	, and an even slighter number could take those teachings all the way to the Boston Marathon. All the Ellenbergers are active, but not all have learned to be actively inactive.</p>
 				<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul>
