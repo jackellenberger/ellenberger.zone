@@ -10,15 +10,19 @@ front-page: true
 
 
 <h2 id="aboutMe"> About Me </h2>
-<p>Hey! You found me! My name's David Ellenberger, a senior Computer Science and Mathematics major at St Olaf College. An avid outdoorsman, I enjoy running, fishing, and watching my beloved MN sports teams break my heart on a regular basis. </p>
+<p>
+Hey! You found me! My name's David Ellenberger, a senior Computer Science and Mathematics major at St Olaf College. An avid outdoorsman, I enjoy running, fishing, and watching my beloved MN sports teams break my heart on a regular basis. 
+</p>
 
 <h2 id="aboutSchool"> Academics </h2>
-<p>When I'm not outdoors, I study Mathematics and St Olaf College in Northfield MN with an emphasis on applied mathematics. Currently heading a CS research project to modernize the school theater via smartphone integration. Enjoy studying combinatorics and set theory, as well as algorithmic design.</p> 
+<p>
+When I'm not outdoors, I study Mathematics and St Olaf College in Northfield MN with an emphasis on applied mathematics. Currently heading a CS research project to modernize the school theater via smartphone integration. Enjoy studying combinatorics and set theory, as well as algorithmic design.
+</p> 
 
 <h2 id="aboutWork"> Employment </h2>
 <h3 id="pl">2017 :: Proto Labs, Inc</h3> 
 <p>
-	Software Quality Engineer Intern at <a href="https://www.protolabs.com">Proto Labs</a>, a Rapid Prototyping and Injection Molding service based out of Maple Plain MN. Worked with key team behind the Injection Molding systems, writing automated API tests simultaneous with the API development. Refactored aging front end End to End regressions library, as well as created a new web-app to accelerate future SQE testing. Gained proficiency in Python based automation including Selenium web drivers and Robot Framework
+	Software Quality Engineer Intern at <a href="https://www.protolabs.com">Proto Labs</a>, a rapid prototyping and injection molding service based out of Maple Plain MN. Worked with key team behind the injection molding systems, writing automated API tests simultaneous with the API development. Refactored aging front end end to end regressions library, as well as created a new web-app to accelerate future SQE testing. Gained proficiency in Python based automation including Selenium web drivers and Robot Framework, as well as relational database management.
 </p>
 
 <h3 id="lol">2015 :: Land O'Lakes, Inc</h3> 
