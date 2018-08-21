@@ -95,19 +95,9 @@
 		}
 
 		&.major {
-			height: 66vh;
-			min-height: 26em;
-			max-height: 44em;
-
-			&.alt {
-				  opacity: 0.75;
-			}
-		}
-
-		&.minor {
-			height: 20vh;
-			min-height: 8em;
-			max-height: 14em;
+			height: 75vh;
+			min-height: 30em;
+			max-height: 50em;
 
 			&.alt {
 				  opacity: 0.75;

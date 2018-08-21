@@ -1,7 +1,7 @@
 ---
 layout: post
 title: David
-description: Software Engineer at Toro. BA in CS and Math from St Olaf College
+description: The coolest of the brothers. Senior CS and Math major at St Olaf College
 permalink: /david
 image: assets/images/redbull.jpg
 nav-menu: true
@@ -12,8 +12,6 @@ front-page: true
 <h2 id="aboutMe"> About Me </h2>
 <p>
 Hey! You found me! My name's David Ellenberger, a senior Computer Science and Mathematics major at St Olaf College. An avid outdoorsman, I enjoy running, fishing, and watching my beloved MN sports teams break my heart on a regular basis. 
-
-I am currently working as a Software Engineer at Toro in Minneapolis.
 </p>
 
 <h2 id="aboutSchool"> Academics </h2>
