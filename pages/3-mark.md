@@ -8,4 +8,4 @@ nav-menu: true
 front-page: true
 ---
 
-He's just a boy! Come back when he needs a job.
+Working towards a degreen in engineering at Rhodes College.
