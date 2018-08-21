@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Matt
-description: Helping the less privileged step into the workforce
+description: Helping the less privileged step into the workforce 
 permalink: /matt
 image: assets/images/pic05.jpg
 nav-menu: true
