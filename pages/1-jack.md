@@ -18,9 +18,9 @@ front-page: true
 <!-- One -->
 <section id="one">
 	<div class="inner">
-		<header class="major">
-			<h2>The top line</h2>
-		</header>
+		<ul class="actions">
+			<li><a href="/resumes/jack/ellenberger.pdf" class="button icon fa-download">Take this, you might need it</a></li>
+		</ul>
 		<p>
 			I am a software engineer currently based in Chicago, working at <a href="https://www.braintreepayments.com/careers">Braintree Payments</a>	 on API integrity, site reliability, a bit of dev ops, and a smattering of open source problem solving.
 			<br/>
@@ -30,17 +30,14 @@ front-page: true
 			<br/>
 			Find me spreding knowledge around the 'net on <a href="https://stackoverflow.com/users/5261045/jellenberger">Stackoverflow</a> and <a href="https://github.com/jackellenberger?tab=overview">GitHub</a>
 		</p>
-		<ul class="actions">
-			<li><a href="/resumes/jack/ellenberger.pdf" class="button icon fa-download">Take this, you might need it</a></li>
-		</ul>
 	</div>
 </section>
 
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/pic08.jpg" alt="" data-position="center center" />
+		<a class="image">
+			<img src="assets/images/jack/tec.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -50,10 +47,21 @@ front-page: true
 				<p>
 <h4>Braintree Payments</h4>
 <h5>Software Engineer  June 2016 - Present</h5>
+<img class="img-responsive img-circle img-circle large" align="right" src="/assets/images/jack/braintree.png">
+<img class="img-responsive img-circle img-circle small" align="right" style="transform: translate(12em, -1em);margin-left: -12em;" src="/assets/images/jack/paypal.png">
 <li> Maintained the Braintree and PayPal developer docs and marketing sites, while working with technical writers to expand and improve functionality.  Rewrote Braintree's federated site search to use a custom parser and Algolia front end to serve tens of thousands more useful results. Streamlined release processes while eliminating downtime, implementing nginx caching, and reducing AWS asset storage load by 97%. Secured form inputs against attack via backend validation and captcha.</li>
 <br/>
 
 <li> Integrated new features into the C++, Java, Ruby, Python, .NET, PHP, and Node server SDKs including porting .NET to .NET Core compatibility. Wrote tools to allow seamless migration of sensitive customer any payment information to and from Braintree, leveraging awk regular expressions. Improved Jenkins testing for multiple projects, expanding usefulness for non-technical users while surfacing specifically identified issues to developers, and bringing version controlled CI to PayPal projects. Helped to Dockerize development and release of multiple services using legacy Capistrano processes as well as Kubernetes. Made additions to Jenkins and Docker Ruby DSL's for use on our team and others. Wrote shim into exiting core to enable GraphQL endpoints. Wrote thorough API validation tests to ensure nothing went undocumented.</li>
+<div class="container">
+	<i class="devicon-ruby-plain colored small"></i>
+	<i class="devicon-python-plain colored small"></i>
+	<i class="devicon-cplusplus-line colored small"></i>
+	<i class="devicon-java-plain colored small"></i>
+	<i class="devicon-dot-net-plain small"></i>
+	<i class="devicon-php-plain colored small"></i>
+	<i class="devicon-nodejs-plain colored small"></i>
+</div>
 <br/>
 
 <li> Co-founded Python Tutorial group to encourage technical literacy among Braintree Support employees, provided one on one mentorship for interns, and forced Slack to paginate their emoji page via excessive use.</li>
@@ -62,12 +70,14 @@ front-page: true
 
 <h4>Revenew Inc.</h4>
 <h5>Operations Administrator & Technologist Intern  Summer 2015</h5>
+<img class="img-responsive img-circle img-circle large offset-left" align="left" src="/assets/images/jack/revenew.jpg">
 <li> Wrote scripts and queries for Piwik Analytics to decrease analysis duration of 14,000+ tracked sites by a factor of 120x while collaborating with creators and users. Edited existing code base to allow for secure SSH access from .NET webapp to Ruby scripts. Designed database and storage procedures to maintain Financial Services data in cloud-based WORM compliant manner. Created automated testing environment to ensure that latency is minimized and reliability is guaranteed for a non URI routable platform. Created sample webpage to demonstrate ability to cobrand video, rendering on demand. Created procedure for duplicating and migrating Wordpress sites automatically, updated existing templates and plugins, and implemented okta single sign-on.</li>
 <br/><br/>
 
 
 <h4>Land O'Lakes Inc.</h4>
 <h5>Project Management & Application Development Intern  Summer 2013 and 2014</h5>
+<img class="img-responsive img-circle img-circle large offset-left" align="left" src="/assets/images/jack/lol.png">
 <li> Created iOS sample for a secure, internal crisis management app, oversaw its development by an offshore team, composed documentation and test scripts. Wrote tool chain to increase readability of scanned data. Implemented ELMAH system to report client side API errors to developers. Performed code maintenance and extensions on projects from previous internship.</li>
 <br/>
 
@@ -76,20 +86,18 @@ front-page: true
 
 <h4>University of Chicago</h4>
 <h5>Humanities Computing Technician  October 2012 - June 2016</h5>
+<img class="img-responsive img-circle img-circle large offset-left" align="left" src="/assets/images/jack/uchicago.jpg">
 <li> Conducted Tier 1 & 2 technical support directly with Faculty and Staff of the University to identify hardware and software issues and to resolve them with minimal loss of data or time. Performed on site repairs, basic data recovery, and documentation management tasks.</li>
 				</p>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/pic09.jpg" alt="" data-position="top center" />
+		<a class="image">
+			<div data-position="25% 25%" class="scroller" style='background-position: center center; background-image: url("/assets/images/jack/uchicago_pano_2.jpg" );'></div>
 		</a>
 		<div class="content">
 			<div class="inner">
-				<header class="major">
-					<h3>Education</h3>
-				</header>
 <script>
 window.onload = function () {
 
@@ -170,14 +178,14 @@ var chart = new CanvasJS.Chart("chartContainer", {
 chart.render();
 }
 </script>
-<div id="chartContainer" style="margin: 0 auto; height: 400px; width: 400px;"></div>
+<div id="chartContainer" style="margin: 0 auto; height: 512px; width: 512px;"></div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/pic10.jpg" alt="" data-position="25% 25%" />
+		<a class="image">
+			<div data-position="25% 25%" class="scroller" style='background-position: center center; background-image: url("/assets/images/jack/uchicago_pano.jpg" );'></div>
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -209,8 +217,8 @@ chart.render();
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/pic10.jpg" alt="" data-position="25% 25%" />
+		<a class="image">
+			<img src="assets/images/jack/walter.jpg" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -243,8 +251,8 @@ chart.render();
 </section>
 <section id="two" class="spotlights">
 	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/pic08.jpg" alt="" data-position="center center" />
+		<a class="image">
+			<img src="assets/images/jack/uchicago_snow.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -261,14 +269,14 @@ chart.render();
 <br/><br/><h5>Gerrymeleon</h5> A GPGPU project in its infancy to calculate and solve Efficiency Gap problems.
 				</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/pic08.jpg" alt="" data-position="center center" />
+		<a class="image">
+			<img src="assets/images/jack/clock.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -283,14 +291,14 @@ chart.render();
 <br/><br/><h5>Awesome-o</h5> A stateless Slackbot for parsing Trello boards, and tracking opensource issues. 
 				</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/pic09.jpg" alt="" data-position="top center" />
+		<a class="image">
+			<div data-position="25% 25%" class="scroller" style='background-position: center center; background-image: url("/assets/images/jack/lakeshore_pano.jpg" );'></div>
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -317,9 +325,17 @@ chart.render();
 		<span class="image">
 			<img src="assets/images/iceland.jpg" alt="">
 		</span>
-		<ul class="actions">
-			<li><a href="https://www.linkedin.com/in/jack-ellenberger-149134b4/" class="button next">Link Me In</a></li>
-		</ul>
+		<div class="container" style="transform: translateY(-1em);">
+			<ul class="actions">
+				<li><a href="https://www.linkedin.com/in/jack-ellenberger-149134b4/" class="button">LinkedIn</a></li>
+			</ul>
+			<ul class="actions">
+				<li><a href="https://github.com/jackellenberger" class="button special">Github</a></li>
+			</ul>
+			<ul class="actions">
+				<li><a href="/resumes/jack/ellenberger.pdf" class="button">Resume</a></li>
+			</ul>
+		</div>
 	</div>
 </section>
 

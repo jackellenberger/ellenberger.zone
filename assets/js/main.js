@@ -19,7 +19,9 @@
 	 * Applies parallax scrolling to an element's background image.
 	 * @return {jQuery} jQuery object.
 	 */
-	$.fn._parallax = (skel.vars.browser == 'ie' || skel.vars.browser == 'edge' || skel.vars.mobile) ? function() { return $(this) } : function(intensity) {
+	$.fn._parallax = (skel.vars.browser == 'ie' || skel.vars.browser == 'edge' || skel.vars.mobile) ? function() { return $(this) } : function(intensity, xaxis, yaxis) {
+		xaxis = typeof(xaxis) === "undefined" ? false : xaxis; //default to not scrolling xaxis
+		yaxis = typeof(xaxis) === "undefined" ? true : yaxis; //default to scrolling yaxis
 
 		var	$window = $(window),
 			$this = $(this);
@@ -30,7 +32,7 @@
 		if (this.length > 1) {
 
 			for (var i=0; i < this.length; i++)
-				$(this[i])._parallax(intensity);
+				$(this[i])._parallax(intensity, xaxis, yaxis);
 
 			return $this;
 
@@ -53,8 +55,8 @@
 
 						var pos = parseInt($window.scrollTop()) - parseInt($t.position().top);
 
-						$t.css('background-position', 'center ' + (pos * (-1 * intensity)) + 'px');
-
+						var amount = (pos * (-1 * intensity)) + 'px';
+						$t.css('background-position', (xaxis ? amount : 'center') + ' ' + (yaxis ? amount : 'center'));
 					});
 
 			};
@@ -97,6 +99,7 @@
 			$wrapper = $('#wrapper'),
 			$header = $('#header'),
 			$banner = $('#banner');
+			$scroller = $('.scroller');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -231,7 +234,28 @@
 					$image = $this.find('.image'), $img = $image.find('img');
 
 				// Parallax.
-					$this._parallax(0.275);
+					$this._parallax(0.275, false, true);
+
+				// Image.
+					if ($image.length > 0) {
+
+						// Set image.
+							$this.css('background-image', 'url(' + $img.attr('src') + ')');
+
+						// Hide original.
+							$image.hide();
+
+					}
+
+			});
+		// Scroller
+			$scroller.each(function() {
+
+				var $this = $(this),
+					$image = $this.find('.image'), $img = $image.find('img');
+
+				// Parallax.
+					$this._parallax(0.175, true, false);
 
 				// Image.
 					if ($image.length > 0) {

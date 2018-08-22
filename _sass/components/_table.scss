@@ -5,6 +5,10 @@
 ///
 
 /* Table */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;

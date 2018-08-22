@@ -10,6 +10,34 @@ img {
     max-width: 100%;
 }
 
+i {
+	font-size: 2em;
+	&.small {
+		font-size: 2em;
+		margin: 1em;
+	}
+}
+
+.img-circle {
+    border-radius: 50%;
+    margin: 1em;
+
+    &.small {
+    	width: 2em;
+    }
+    &.medium {
+        width: 4em;
+    }
+    &.large {
+        width: 8em;
+    }
+}
+
+.offset-left {
+	transform: translate(-12em, -6em);
+	margin-right: -10em;
+}
+
 .image {
 		border: 0;
 		display: inline-block;
