@@ -33,9 +33,6 @@ front-page: true
 					<h3>Active</h3>
 				</header>
 				<p>JV Champions and thought leaders of the nordic track, the Ellenbergers dominate the long distance, while perfecting the techniques of nordic sleeping. Few can maintain the strict regimens of constant tapering and non-stop dry land training	, and an even slighter number could take those teachings all the way to the Boston Marathon. All the Ellenbergers are active, but not all have learned to be actively inactive.</p>
-				<ul class="actions">
-					<li><a class="button">Learn more</a></li>
-				</ul>
 			</div>
 		</div>
 	</section>
@@ -49,9 +46,6 @@ front-page: true
 					<h3>Educated</h3>
 				</header>
 				<p>Matt: Graduate Degree at St Thomas. Michael: Undergrad, a turn at the National Institute of Health, and on to patent law. Jack: a BS and more once they make computers a bit more complicated. David: at the second best school in Northfield. Mark: Make him an offer, schools.</p>
-				<ul class="actions">
-					<li><a class="button">Learn more</a></li>
-				</ul>
 			</div>
 		</div>
 	</section>
@@ -65,9 +59,6 @@ front-page: true
 					<h3>Connected</h3>
 				</header>
 				<p>Synergy. Business. Sigma. Anything, we got it.</p>
-				<ul class="actions">
-					<li><a class="button">Learn more</a></li>
-				</ul>
 			</div>
 		</div>
 	</section>

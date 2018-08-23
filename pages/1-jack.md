@@ -16,10 +16,10 @@ front-page: true
 <div id="main">
 
 <!-- One -->
-<section id="one">
+<section id="overview">
 	<div class="inner">
 		<ul class="actions">
-			<li><a href="/resumes/jack/ellenberger.pdf" class="button icon fa-download">Take this, you might need it</a></li>
+			<li style="display:block;text-align:center;"><a href="/resumes/jack/ellenberger.pdf" class="button icon fa-download">For your records</a></li>
 		</ul>
 		<p>
 			I am a software engineer currently based in Chicago, working at <a href="https://www.braintreepayments.com/careers">Braintree Payments</a>	 on API integrity, site reliability, a bit of dev ops, and a smattering of open source problem solving.
@@ -34,10 +34,10 @@ front-page: true
 </section>
 
 <!-- Two -->
-<section id="two" class="spotlights">
-	<section>
+<section class="spotlights">
+	<section id="experience">
 		<a class="image">
-			<img src="assets/images/jack/tec.jpg" alt="" data-position="center center" />
+			<div data-position="25% 25%" class="scroller" style='background-position: center center; background-image: url("/assets/images/jack/tec.jpg" );'></div>
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -48,7 +48,7 @@ front-page: true
 <h4>Braintree Payments</h4>
 <h5>Software Engineer  June 2016 - Present</h5>
 <img class="img-responsive img-circle img-circle large" align="right" src="/assets/images/jack/braintree.png">
-<img class="img-responsive img-circle img-circle small" align="right" style="transform: translate(12em, -1em);margin-left: -12em;" src="/assets/images/jack/paypal.png">
+<img class="img-responsive img-circle img-circle medium" align="right" style="transform: translate(12em, -1em);margin-left: -12em;" src="/assets/images/jack/paypal.png">
 <li> Maintained the Braintree and PayPal developer docs and marketing sites, while working with technical writers to expand and improve functionality.  Rewrote Braintree's federated site search to use a custom parser and Algolia front end to serve tens of thousands more useful results. Streamlined release processes while eliminating downtime, implementing nginx caching, and reducing AWS asset storage load by 97%. Secured form inputs against attack via backend validation and captcha.</li>
 <br/>
 
@@ -103,21 +103,27 @@ window.onload = function () {
 
 var chart = new CanvasJS.Chart("chartContainer", {
 	title:{
-    	text: "University of Chicago", 
-    	fontFamily: "Source Sans Pro"      
+    	text: "University of Chicago",
+    	fontFamily: "Source Sans Pro"
 	},
-    subtitles: [{
-    	text: "Chicago IL, October 2012 - June 2016",
-    	fontFamily: "Source Sans Pro"      		
-    }],
+  subtitles: [{
+    text: "Chicago IL, October 2012 - June 2016",
+    fontFamily: "Source Sans Pro"
+  }],
 	animationEnabled: true,
 	zoomEnabled: true,
 	backgroundColor: null,
 	theme: 'dark1',
+  legend:
+  {
+    dockInsidePlotArea: true,
+    verticalAlign: "bottom",
+    horizontalAlign: "left"
+  },
 	axisX: {
 		title:"Relevance",
 		interval: 16,
-		minimum: -15,
+		minimum: -10,
 		maximum: 15,
 		gridThickness:1,
 		tickLength: 0,
@@ -130,7 +136,7 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		margin:10,
 		title: "Interest",
 		interval: 16,
-		minimum: -15,
+		minimum: -10,
 		maximum: 15,
 		gridThickness:1,
 		tickLength: 0,
@@ -171,19 +177,19 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		{ x: -5, y: -4, z: 5, name: "Calculus I-III" },
 		{ x: -6, y: 9, z: 6, name: "Analysis & Linear Algebra" },
 		{ x: -9, y: 1, z: 4, name: "Honors Mechanics" },
-		{ x: 100, y: 100, z: 20, name: "weighter"}
+		{ x: 100, y: 100, z: 25, name: "weighter"}
 		]
 	}]
 });
 chart.render();
 }
 </script>
-<div id="chartContainer" style="margin: 0 auto; height: 512px; width: 512px;"></div>
+<div id="chartContainer" style="margin: 0 auto; height: 20em; width: 50vw;"></div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 			</div>
 		</div>
 	</section>
-	<section>
+	<section id="skills">
 		<a class="image">
 			<div data-position="25% 25%" class="scroller" style='background-position: center center; background-image: url("/assets/images/jack/uchicago_pano.jpg" );'></div>
 		</a>
@@ -193,7 +199,7 @@ chart.render();
 					<h3>Skills</h3>
 				</header>
 				<p>
-					<li>Jenkins/Continuous Integration,</li> 
+					<li>Jenkins/Continuous Integration,</li>
 					<li>API design,</li>
 					<li>Full stack site maintenance</li>
 					<li>Pair programming,</li>
@@ -216,7 +222,7 @@ chart.render();
 			</div>
 		</div>
 	</section>
-	<section>
+	<section id="languages">
 		<a class="image">
 			<img src="assets/images/jack/walter.jpg" alt="" data-position="25% 25%" />
 		</a>
@@ -252,7 +258,7 @@ chart.render();
 <section id="two" class="spotlights">
 	<section>
 		<a class="image">
-			<img src="assets/images/jack/uchicago_snow.jpg" alt="" data-position="center center" />
+			<div data-position="25% 25%" class="scroller" style='background-position: center center; background-image: url("/assets/images/jack/uchicago_snow.jpg" );'></div>
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -260,45 +266,109 @@ chart.render();
 					<h3>@Home</h3>
 				</header>
 				<p>
-<br/><br/><h5>Phyllo.apk</h5> A location based distributed information sharing app (mySQL, Django, Java). 
-<br/><br/><h5>ellenberger.zone</h5> A personal website with subdomains for each of my family members.
-<br/><br/><h5>FossFazor</h5> A 3D printed waveguide for Orthodynamic headphones based off the Audeze model. 
-<br/><br/><h5>MuLtiplication</h5> A Python interface for radioligand binding assays to determine solubility of novel and published Dopamine D2 receptor-like ligands to be used by the Newman Group at the NIH.
-<br/><br/><h5>ShowProdDehydron</h5> A 3D viewer for Dehydron distribution in proteins in Python.
-<br/><br/><h5>oGrocer</h5> An app to crowdsource current food price trends and give consumers complete price knowledge about what to buy where.
-<br/><br/><h5>Gerrymeleon</h5> A GPGPU project in its infancy to calculate and solve Efficiency Gap problems.
+          <table>
+            <tr>
+              <th class="right">
+                <a class="button small li-like" href="https://github.com/jackellenberger/PhylloApp">Phyllo.apk</a>
+              </th><th>
+                A location based distributed information sharing app (mySQL, Django, Java).
+              </th>
+            </tr>
+            <tr>
+              <th class="right">
+                <a class="button small li-like" href="https://github.com/jackellenberger/ellenberger.zone">ellenberger.zone</a>
+              </th><th>
+                A personal website with subdomains for each of my family members.
+              </th>
+            </tr>
+            <tr>
+              <th class="right">
+                <a class="button small li-like" href="https://github.com/jackellenberger/3dModels3dPrinting">FossFazor</a>
+              </th><th>
+                A 3D printed waveguide for Orthodynamic headphones based off the Audeze model.
+              </th>
+            </tr>
+            <tr>
+              <th class="right">
+                <a class="button small li-like disabled" href="">MuLtiplication</a>
+              </th><th>
+                A Python interface for radioligand binding assays to determine solubility of novel and published Dopamine D2 receptor-like ligands to be used by the Newman Group at the NIH.
+              </th>
+            </tr>
+            <tr>
+              <th class="right">
+                <a class="button small li-like" href="https://github.com/jackellenberger/DigitalBiology2015BaselineStatistics/blob/master/Project%201.3%20Report.pdf">ShowProdDehydron</a>
+              </th><th>
+                A 3D viewer for Dehydron distribution in proteins in Python.
+              </th>
+            </tr>
+            <tr>
+              <th class="right">
+                <a class="button small li-like" href="https://github.com/jackellenberger/oGrocer">oGrocer</a>
+              </th><th>
+                An app to crowdsource current food price trends and give consumers complete price knowledge about what to buy where.
+              </th>
+            </tr>
+            <tr>
+              <th class="right">
+                <a class="button small li-like disabled" href="">Gerrymeleon</a>
+              </th><th>
+                A GPGPU project in its infancy to calculate and solve Efficiency Gap problems.
+              </th>
+            </tr>
+          </table>
 				</p>
-				<ul class="actions">
-					<li><a class="button">Learn more</a></li>
-				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a class="image">
+			<div data-position="25% 25%" class="scroller" style='background-repeat: repeat-x; background-position: center center; background-image: url("/assets/images/jack/uchicago_pano.jpg" );'></div>
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>For Work/Open Source</h3>
+        </header>
+        <p>
+          At a few of my workplaces implemented a <a href="https://www.inc.com/adam-robinson/google-employees-dedicate-20-percent-of-their-time-to-side-projects-heres-how-it-works.html">"20% time"</a> work structure, where a day every other week (or wherever you could fit it in) would be devoted to personal projects. Here are a few of such projects.
+          <table>
+            <tr>
+              <th class="right">
+                <a class="button small li-like" href="https://github.com/jackellenberger/slack_yaml_manager">Slack Yaml Manager</a>
+              </th><th>
+                A hybrid slack bot and standalone program to allow users to execute arbitrary code using configurations generated through slack commands.
+              </th>
+            </tr>
+            <tr>
+              <th class="right">
+                <a class="button small li-like" href="https://github.com/jackellenberger/node-html-to-text">html-to-text</a>
+              </th><th>
+                Improved upon existing design to better handle complex tables.
+              </th>
+            </tr>
+            <tr>
+              <th class="right">
+                <a class="button small li-like" href="https://github.com/jackellenberger/yaml_line_numbers">YamlLineNumbers</a>
+              </th><th>
+                A lightweight library to surface source line numbers in parsed ruby hashes.
+              </th>
+            </tr>
+            <tr>
+              <th class="right">
+                <a class="button small li-like disabled" href="">Awesome-o</a>
+              </th><th>
+                A stateless Slackbot for parsing Trello boards, and tracking opensource issues.
+              </th>
+            </tr>
+          </table>
+				</p>
 			</div>
 		</div>
 	</section>
 	<section>
 		<a class="image">
 			<img src="assets/images/jack/clock.jpg" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>For Work/Open Source</h3>
-				</header>
-				<p>
-					At a few of my workplaces implemented a <a href="https://www.inc.com/adam-robinson/google-employees-dedicate-20-percent-of-their-time-to-side-projects-heres-how-it-works.html">"20% time"</a> work structure, where a day every other week (or wherever you could fit it in) would be devoted to personal projects. These are those projects
-<br/><br/><h5>Slack Yaml Manager</h5> A hybrid slack bot and standalone program to allow users to execute arbitrary code using configurations generated through slack commands.
-<br/><br/><h5>html-to-text</h5> Improved upon existing design to better handle complex tables.
-<br/><br/><h5>YamlLineNumbers</h5> A lightweight library to surface source line numbers in parsed ruby hashes.
-<br/><br/><h5>Awesome-o</h5> A stateless Slackbot for parsing Trello boards, and tracking opensource issues. 
-				</p>
-				<ul class="actions">
-					<li><a class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a class="image">
-			<div data-position="25% 25%" class="scroller" style='background-position: center center; background-image: url("/assets/images/jack/lakeshore_pano.jpg" );'></div>
 		</a>
 		<div class="content">
 			<div class="inner">

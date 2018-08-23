@@ -15,7 +15,7 @@
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 100vh;
+		height: 100%;
 
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
@@ -30,7 +30,7 @@
 			position: absolute;
 			top: 0;
 			width: 100%;
-			z-index: 1;
+			// z-index: 1;
 		}
 
 }
@@ -46,11 +46,11 @@
 		border-bottom: 0 !important;
 		cursor: default;
 		height: 60vh;
-		margin-bottom: -3.25em;
+		// margin-bottom: -3.25em;
 		max-height: 32em;
 		min-height: 22em;
 		position: relative;
-		top: -3.25em;
+		// top: -3.25em;
 
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
@@ -171,7 +171,7 @@
 			margin-bottom: -2.75em;
 			max-height: none;
 			min-height: 0;
-			top: -2.75em;
+			// top: -2.75em;
 
 			h1 {
 				font-size: 2em;

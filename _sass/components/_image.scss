@@ -34,8 +34,9 @@ i {
 }
 
 .offset-left {
-	transform: translate(-12em, -6em);
+	transform: translate(-14em, -7em);
 	margin-right: -10em;
+  z-index: 2;
 }
 
 .image {
