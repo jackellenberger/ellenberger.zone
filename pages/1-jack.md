@@ -184,7 +184,7 @@ var chart = new CanvasJS.Chart("chartContainer", {
 chart.render();
 }
 </script>
-<div id="chartContainer" style="margin: 0 auto; height: 20em; width: 50vw;"></div>
+<div id="chartContainer" style="position: relative; margin: 0 auto; height: 20em; width: 100%;"></div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 			</div>
 		</div>
