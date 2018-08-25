@@ -269,6 +269,13 @@ chart.render();
           <table>
             <tr>
               <th class="right">
+                <a class="button small li-like" href="https://www.linkedin.com/company/jabirumedical/">Jabiru Medical</a>
+              </th><th>
+                A Northwestern University incubated medical startup in Chicago. Worked on an Arduino powered proof of concept device designed to help pregnant women understand stressors on crucial muscle groups.
+              </th>
+            </tr>
+            <tr>
+              <th class="right">
                 <a class="button small li-like" href="https://github.com/jackellenberger/PhylloApp">Phyllo.apk</a>
               </th><th>
                 A location based distributed information sharing app (mySQL, Django, Java).
@@ -338,6 +345,13 @@ chart.render();
                 <a class="button small li-like" href="https://github.com/jackellenberger/slack_yaml_manager">Slack Yaml Manager</a>
               </th><th>
                 A hybrid slack bot and standalone program to allow users to execute arbitrary code using configurations generated through slack commands.
+              </th>
+            </tr>
+            <tr>
+              <th class="right">
+                <a class="button small li-like" href="https://github.com/jackellenberger/emojipacks">Emojipacks</a>
+              </th><th>
+              A codebase designed for importing bought emoji to Slack, co-opted to enable people to transfer and sync emoji between instances. Used to transfer Braintree's 15,000 emoji to personal instances.
               </th>
             </tr>
             <tr>
