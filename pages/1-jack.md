@@ -342,6 +342,14 @@ chart.render();
           <table>
             <tr>
               <th class="right">
+                <a class="button small li-like" href="https://github.com/jackellenberger/emojme">Emojme</a>
+              </th><th>
+                An improvement on my work on emojipacks, with a complete rewrite adding bulk emoji download, upload, syncing, and statistics through an undocumented slack api endpoing.
+              </th>
+            </tr>
+          <table>
+            <tr>
+              <th class="right">
                 <a class="button small li-like" href="https://github.com/jackellenberger/slack_yaml_manager">Slack Yaml Manager</a>
               </th><th>
                 A hybrid slack bot and standalone program to allow users to execute arbitrary code using configurations generated through slack commands.
