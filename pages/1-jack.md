@@ -347,7 +347,6 @@ chart.render();
                 An improvement on my work on emojipacks, with a complete rewrite adding bulk emoji download, upload, syncing, and statistics through an undocumented slack api endpoing.
               </th>
             </tr>
-          <table>
             <tr>
               <th class="right">
                 <a class="button small li-like" href="https://github.com/jackellenberger/slack_yaml_manager">Slack Yaml Manager</a>
