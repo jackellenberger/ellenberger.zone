@@ -92,7 +92,8 @@ front-page: true
 			</div>
 		</div>
 	</section>
-	<section>
+
+	<section id="education">
 		<a class="image">
 			<div data-position="25% 25%" class="scroller" style='background-position: center center; background-image: url("/assets/images/jack/uchicago_pano_2.jpg" );'></div>
 		</a>
@@ -255,6 +256,7 @@ chart.render();
 		</div>
 	</div>
 </section>
+
 <section id="two" class="spotlights">
 	<section>
 		<a class="image">
@@ -344,7 +346,7 @@ chart.render();
               <th class="right">
                 <a class="button small li-like" href="https://github.com/jackellenberger/emojme">Emojme</a>
               </th><th>
-                An improvement on my work on emojipacks, with a complete rewrite adding bulk emoji download, upload, syncing, and statistics through an undocumented slack api endpoing.
+                An improvement on my work on emojipacks, with a complete rewrite adding bulk emoji download, upload, syncing, and statistics through an undocumented slack api endpoint.
               </th>
             </tr>
             <tr>
