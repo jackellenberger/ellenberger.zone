@@ -28,7 +28,7 @@ front-page: true
 			You might know me from my greatest hits, <a href="https://www.braintreepayments.com/">braintreepayments.com</a>, <a href="https://www.developers.braintreepayments.com/">braintree's developer docs</a>, and <a href="https://www.developer.paypal.com/">PayPal's developer docs.</a>
 			<br/>
 			<br/>
-			Find me spreding knowledge around the 'net on <a href="https://stackoverflow.com/users/5261045/jellenberger">Stackoverflow</a> and <a href="https://github.com/jackellenberger?tab=overview">GitHub</a>
+      Find me spreding knowledge around the 'net on <a href="https://stackoverflow.com/users/5261045/jellenberger">Stackoverflow</a>, <a href="https://medium.com/@jack.a.ellenberger/">Medium</a>, and <a href="https://github.com/jackellenberger?tab=overview">GitHub</a>
 		</p>
 	</div>
 </section>
