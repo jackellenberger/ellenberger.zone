@@ -200,25 +200,30 @@ chart.render();
 					<h3>Skills</h3>
 				</header>
 				<p>
-					<li>Jenkins/Continuous Integration,</li>
-					<li>API design,</li>
-					<li>Full stack site maintenance</li>
-					<li>Pair programming,</li>
-					<li>Unix/Linux systems,</li>
-					<li> Android & iOS,</li>
-					<li>Web development,</li>
-					<li>Application Programming,</li>
-					<li>Vim,</li>
-					<li>Project Management,</li>
-					<li>Parser design,</li>
-					<li>Low-Level Programming,</li>
-					<li>Database design & management,</li>
-					<li>Azure systems management,</li>
-					<li>High traffic Piwik instances,</li>
-					<li>Wordpress templates & plugins,</li>
-					<li>MVC RESTful APIs,</li>
-					<li>Regular Expressions,</li>
-					<li>git, svn, and tfs</li>
+          <li>Jenkins/Continuous Integration,</li>
+          <li>API design,</li>
+          <li>Full stack site maintenance</li>
+          <li>Pair programming,</li>
+          <li>Unix/Linux systems,</li>
+          <li> Android & iOS,</li>
+          <li>Web development,</li>
+          <li>Application Programming,</li>
+          <li>Vim and Tmux,</li>
+          <li>Project Management,</li>
+          <li>Parser design,</li>
+          <li>Low-Level Programming,</li>
+          <li>Database design & management,</li>
+          <li>Azure systems management,</li>
+          <li>High traffic Piwik instances,</li>
+          <li>Wordpress templates & plugins,</li>
+          <li>MVC RESTful APIs,</li>
+          <li>Regular Expressions,</li>
+          <li>git, svn, and tfs</li>
+          <li>Docker,</li>
+          <li>Kubernetes,</li>
+          <li>Language Design,</li>
+          <li>API Design,</li>
+          <li>Mentoring</li>
 				</p>
 			</div>
 		</div>
@@ -233,9 +238,9 @@ chart.render();
 					<h3>Languages</h3>
 				</header>
 				<p>
-					Ruby, Python, Node/Js, Java, C#.Net, C++, Arduino/C, Bash/Zsh, SQL, Linq, R
+          (proficient): Ruby, Python, Node, Javascript, Java, C# .Net, PHP, C++, Arduino/C, Bash/Zsh, R, SQL
 					<br/><br/>
-					Working Knowledge: Objective-C, OpenGL / GLSL, Haskell, SML, Assembly (6502 & x86), PHP, Perl, Yacc, awk, sed, G-code
+          (familiar): Objective-C, OpenGL / GLSL, Haskell, SML, Assembly (6502 & x86), Perl, Yacc, awk, sed, G-code
 				</p>
 			</div>
 		</div>
@@ -346,42 +351,56 @@ chart.render();
               <th class="right">
                 <a class="button small li-like" href="https://github.com/jackellenberger/emojme">Emojme</a>
               </th><th>
-                An improvement on my work on emojipacks, with a complete rewrite adding bulk emoji download, upload, syncing, and statistics through an undocumented slack api endpoint.
+              An improvement on my work on emojipacks, with a complete rewrite adding bulk emoji download, upload, syncing, and statistics through a reverse engineered undocumented slack api endpoint. Published both as an npm module and a command line tool, Emojme allows me to keep 16,000 emoji synced across multiple slack instances, and has (I believe) been instrumental in forcing Slack to rewrite their /customize page several times over the last few years.
               </th>
             </tr>
             <tr>
               <th class="right">
                 <a class="button small li-like" href="https://github.com/jackellenberger/slack_yaml_manager">Slack Yaml Manager</a>
               </th><th>
-                A hybrid slack bot and standalone program to allow users to execute arbitrary code using configurations generated through slack commands.
+              A hybrid Slackbot and standalone program to allow Slack users create, edit, and run arbitrary jobs based on a shared yaml schema.
+              </th>
+            </tr>
+            <tr>
+              <th class="right">
+                <a class="button small li-like" href="https://teaas.fyi">TEAAS</a>
+              </th><th>
+              A site to apply useful transformations to basic emoji. My role was to improve the post-creation experience, allowing users to download the emoji they create or upload them directly to slack.
               </th>
             </tr>
             <tr>
               <th class="right">
                 <a class="button small li-like" href="https://github.com/jackellenberger/emojipacks">Emojipacks</a>
               </th><th>
-              A codebase designed for importing bought emoji to Slack, co-opted to enable people to transfer and sync emoji between instances. Used to transfer Braintree's 15,000 emoji to personal instances.
+              A codebase designed for importing bought emoji to Slack, co-opted to enable people to transfer and sync emoji between instances. Uses phantomjs to interact with Slack's frontend, making it slower and more brittle than Emojme.
               </th>
             </tr>
             <tr>
               <th class="right">
                 <a class="button small li-like" href="https://github.com/jackellenberger/node-html-to-text">html-to-text</a>
               </th><th>
-                Improved upon existing design to better handle complex tables.
+              A highly extensible parser, improved upon to better handle complex tables present in Braintree's developer docs. Used as part of Braintree's federated search parser.
               </th>
             </tr>
             <tr>
               <th class="right">
                 <a class="button small li-like" href="https://github.com/jackellenberger/yaml_line_numbers">YamlLineNumbers</a>
               </th><th>
-                A lightweight library to surface source line numbers in parsed ruby hashes.
+              A lightweight library to surface source line numbers in parsed ruby hashes, used extensively internally to help identify and resolve issues with kubernetes configs, static allowlist/blocklists, and programmatic documentation.
+              </th>
+            </tr>
+            <tr>
+              <th class="right">
+                <a class="button small li-like" href="https://github.com/jackellenberger/skell-csv-muncher">Haskell-CSV-Muncher</a>
+              </th><th>
+              A completely overwrought way to convert csv documents into more useful docs. For example, converting this resume into a markdown document for applications, plaintext for linkedin, and html for ellenberger.zone
               </th>
             </tr>
             <tr>
               <th class="right">
                 <a class="button small li-like disabled" href="">Awesome-o</a>
               </th><th>
-                A stateless Slackbot for parsing Trello boards, and tracking opensource issues.
+              A stateless Slackbot for parsing Trello boards, tracking open source issues, and crawling internal servers to provide a daily digest of to-do's on Slack.
               </th>
             </tr>
           </table>
