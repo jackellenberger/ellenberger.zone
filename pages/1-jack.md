@@ -49,6 +49,9 @@ front-page: true
 <h5>Software Engineer  June 2016 - Present</h5>
 <img class="img-responsive img-circle img-circle large" align="right" src="/assets/images/jack/braintree.png">
 <img class="img-responsive img-circle img-circle medium" align="right" style="transform: translate(12em, -1em);margin-left: -12em;" src="/assets/images/jack/paypal.png">
+<li> Migrated 100+ node, multi-billion document Elasticsearch cluster from our datacenter to AWS cloud, enabling greater performance, effortless scaling, and multi regionality. Reduced fault tolerance and increased disaster recoverability by implementing automatic snapshotting, automated health checks, and true Active/Active architecture. Adapted data pipeline to consume multiple Kafka topics, Protobufs, and message types, allowing for the replacement of error prone local Sphinx clusters. Reworked all search infrastructure to be managed in code by Terraform, including health monitors and dashboards via Datadog.</li>
+<br/>
+
 <li> Maintained the Braintree and PayPal developer docs and marketing sites, while working with technical writers to expand and improve functionality.  Rewrote Braintree's federated site search to use a custom parser and Algolia front end to serve tens of thousands more useful results. Streamlined release processes while eliminating downtime, implementing nginx caching, and reducing AWS asset storage load by 97%. Secured form inputs against attack via backend validation and captcha.</li>
 <br/>
 
